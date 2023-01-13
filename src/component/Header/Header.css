@@ -1,9 +1,14 @@
 .header-container{
+    background-color: darkcyan;
     display: flex;
     align-items: center;
-    color: rgb(17, 143, 221);
+    color: whitesmoke;
     margin-top: 20px;
-    margin-left: 450px;
+    border-radius: 20px;
+    /* margin-left: 450px; */
+}
+.header-text{
+   margin-left: 450px;
 }
 .icon-dumbbell{
     margin-left: 10px;
