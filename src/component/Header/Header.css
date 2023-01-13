@@ -1,0 +1,9 @@
+.header-container{
+    display: flex;
+    align-items: center;
+    color: lightseagreen;
+    margin: 50px;
+}
+.icon-dumbbell{
+    margin-left: 10px;
+}
