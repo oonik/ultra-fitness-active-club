@@ -31,7 +31,7 @@ const Fitness = () => {
                  <h3>Anik Sarkar</h3>
               </div>
               </div>
-              <h5 className='my-about'>I want to be a web developer.</h5>
+              <p className='my-about'>I want to be a web developer.</p>
               <h4>Add a break</h4>
                  <div className="btn-div">
                     <button>10s</button>
@@ -41,6 +41,8 @@ const Fitness = () => {
                  </div>
                  <h4>Exercise Details</h4>
                  <p className='exercise-time'>Exercise Time <span className='second'>200s</span></p>
+                 <p className='break-time'>Break Time <span className='break-second'>200s</span></p>
+                 <button className='activity-btn'>Activity Completed</button>
            </div>
            
         </div>
