@@ -1,8 +1,9 @@
 .header-container{
     display: flex;
     align-items: center;
-    color: lightseagreen;
-    margin: 50px;
+    color: rgb(17, 143, 221);
+    margin-top: 20px;
+    margin-left: 450px;
 }
 .icon-dumbbell{
     margin-left: 10px;

@@ -2,3 +2,21 @@
     display: grid;
     grid-template-columns: 4fr 1fr;
 }
+.gym-product-container{
+    margin: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.gym-title{
+    margin-left: 50px;
+}
+.my-img{
+    background-color: aliceblue;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+.information-container{
+    display: flex;
+}
