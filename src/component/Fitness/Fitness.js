@@ -25,11 +25,24 @@ const Fitness = () => {
             </div>
             </div>
             <div className='information-container'>
+              <div className='my-profile'>
               <img className='my-img' src={logo} alt="" />
               <div>
                  <h3>Anik Sarkar</h3>
               </div>
+              </div>
+              <h5 className='my-about'>I want to be a web developer.</h5>
+              <h4>Add a break</h4>
+                 <div className="btn-div">
+                    <button>10s</button>
+                    <button>20s</button>
+                    <button>30s</button>
+                    <button>40s</button>
+                 </div>
+                 <h4>Exercise Details</h4>
+                 <p className='exercise-time'>Exercise Time <span className='second'>200s</span></p>
            </div>
+           
         </div>
        
     );
