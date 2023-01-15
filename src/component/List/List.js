@@ -7,6 +7,7 @@ const List = ({list}) => {
     for(const product of list){
          total = total + parseInt(product.time);
     }
+    
     return (
         <div className='list'>
             <div className='my-profile'>
@@ -22,6 +23,7 @@ const List = ({list}) => {
                     <button>20s</button>
                     <button>30s</button>
                     <button>40s</button>
+                   
                  </div>
                  <h4>Exercise Details</h4>
                  <p className='exercise-time'>Exercise Time <span className='second'>{total}s</span></p>
