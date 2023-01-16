@@ -1,8 +1,9 @@
 import React from 'react';
+
 import logo from '../../images/ResizerImage267X325-removebg-preview.png';
 import './List.css';
 
-const List = ({list}) => {
+const List = ({list, toastify}) => {
     // console.log(list)
    
     let total = 0;
@@ -30,7 +31,7 @@ const List = ({list}) => {
                  <h4>Exercise Details</h4>
                  <p className='exercise-time'>Exercise Time <span className='second'>{total}s</span></p>
                  <p className='break-time'>Break Time <span className='break-second'>200s</span></p>
-                 <button className='activity-btn'>Activity Completed</button>
+                 <button className='activity-btn' onClick={()=>toastify()}>Activity Completed</button>
         </div>
     );
 };

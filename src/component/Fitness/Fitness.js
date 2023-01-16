@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react';
 import List from '../List/List';
 import Product from '../Product/Product';
 import './Fitness.css'
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 const Fitness = () => {
     const [gymAccessories, setGymAccessories] = useState([]);
     const [list, setList] = useState([])
@@ -16,6 +18,9 @@ const Fitness = () => {
         // console.log(accessorie.time)J          
         const newList = [...list, accessorie]
         setList(newList)
+    }
+    const toastify = () =>{
+        toast.success('complete')
     }
 
     return (
@@ -34,7 +39,12 @@ const Fitness = () => {
             </div>
             <div className='information-container'>
 
-                <List list={list}></List>
+               
+                 <List 
+                 list={list}
+                 toastify={toastify}
+                 ></List>
+               
             </div>
             
         </div>
