@@ -1,8 +1,10 @@
 import React from 'react';
-import logo from '../../images/ResizerImage267X325-removebg-preview.png'
-import './List.css'
+import logo from '../../images/ResizerImage267X325-removebg-preview.png';
+import './List.css';
+
 const List = ({list}) => {
     // console.log(list)
+   
     let total = 0;
     for(const product of list){
          total = total + parseInt(product.time);

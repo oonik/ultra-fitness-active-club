@@ -2,14 +2,23 @@
     background-color: rgb(91, 163, 235);
     display: flex;
     align-items: center;
+    justify-content: center;
     color: whitesmoke;
     margin-top: 20px;
     border-radius: 20px;
     /* margin-left: 450px; */
 }
-.header-text{
-   margin-left: 450px;
-}
+
 .icon-dumbbell{
     margin-left: 10px;
+}
+@media only screen and (max-width: 600px) {
+    .header-text{
+        margin-left: 0px;
+    }
+    .header-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
